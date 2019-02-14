@@ -1,10 +1,7 @@
 
-package valentine;
-
 import java.util.Scanner;
-
-public class Valentine {
-    
+class Main {
+ enum Type{food, animal, plant, movie, assorted}
     public static void main(String[] args) {
         System.out.println("Enter the category of valentine you would like: ");
         Scanner input = new Scanner(System.in);
@@ -13,11 +10,8 @@ public class Valentine {
         String[] food = {};
         String[] animal = {};
         String[] plant = {};
-        enum Type{food, animal, plant, movie, assorted}
         
-        /*for(type in typeArray){
-            type.
-        */
+        
         
         
     }
